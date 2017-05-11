@@ -1,0 +1,194 @@
+
+/* Zocial Font */
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+
+/* Global */
+* {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #2d3c49;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+img:last-of-type {
+    margin-right: 0px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Global ids */
+
+div#social a {
+  margin: 0 1em 0 0;
+  line-height: 2em;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+div#remarks{
+  margin-top: 30px;
+}
+
+/* Helpers */
+
+.credits {
+  font-size: 20px;
+}
+
+.text-thin{
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.text-muted{
+    color: #7d97ad;
+}
+
+.title-super{
+    font-size: 50px;
+}
+
+.title-shadow{
+    text-shadow: 2px 2px #2d3c49;
+}
+
+.title-logo{
+    margin-top: 30px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.portfolio {
+    flex-flow: wrap;
+  }
+
+.project {
+    padding-top: 15px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 400px){
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
+
+    h3{
+      font-size: 22px;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .title-super{
+      font-size: 40px;
+    }
+
+    .sub-resize{
+      font-size: 30px;
+    }
+
+    .project-img{
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .title-super{
+    font-size: 40px;
+  }
+
+  .sub-resize{
+    font-size: 30px;
+  }
+
+  .project-img{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .title-super{
+    font-size: 45px;
+  }
+
+  .sub-resize{
+    font-size: 30px;
+  }
+
+  .project-img{
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}

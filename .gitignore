@@ -1,0 +1,5 @@
+.DS_Store
+Gruntfile.js
+images_src/*
+package.json
+node_modules/*
