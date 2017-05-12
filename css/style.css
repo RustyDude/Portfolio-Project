@@ -33,7 +33,7 @@ body {
 }
 
 hr {
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-color: #eeeeee -moz-use-text-color #ffffff;
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
@@ -53,22 +53,20 @@ footer {
   margin-bottom: 50px;
 }
 
-/* Global ids */
+/* Helpers */
 
-div#social a {
+.social a {
   margin: 0 1em 0 0;
   line-height: 2em;
 }
 
-div#social a:last-of-type {
+.social a:last-of-type {
   margin: 0;
 }
 
-div#remarks{
+.remarks{
   margin-top: 30px;
 }
-
-/* Helpers */
 
 .credits {
   font-size: 20px;

@@ -15,12 +15,12 @@
     <title>Russel Lopez - Coding Ninja</title>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js" async></script>
-    <script type="text/javascript" src="js/bootstrap.min.js" async></script>
+    <script src="js/jquery-3.2.1.min.js" async></script>
+    <script src="js/bootstrap.min.js" async></script>
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet"/>
-    <link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,98 +33,104 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive logo" src="images/main_logo.svg" alt="RL logo">
+        <header>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive logo" src="images/main_logo.svg" alt="RL logo">
+                </div>
+                <div class="text-right col-md-6">
+                    <h1 class="text-thin title-super title-shadow">RUSSEL LOPEZ</h1>
+                    <h3 class="text-thin sub-resize">Coding Ninja</h3>
+                </div>
             </div>
-            <div class="text-right col-md-6">
-                <h1 class="text-thin title-super title-shadow">RUSSEL LOPEZ</h1>
-                <h3 class="text-thin sub-resize">Coding Ninja</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <picture>
+                        <source media="(min-width: 980px)" srcset="images/setup.jpg">
+                        <source media="(min-width: 750px)" srcset="images/setup-1600_large_2x.jpg 2x, images/setup-800_large_1x.jpg">
+                        <img class="img-responsive" src="images/setup-500_small.jpg" srcset="images/setup-1000_medium.jpg, 1000w" alt="Work Station Picture">
+                    </picture>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <picture>
-                    <source media="(min-width: 980px)" srcset="images/setup.jpg" />
-                    <source media="(min-width: 750px)" srcset="images/setup-1600_large_2x.jpg 2x, images/setup-800_large_1x.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/setup-1000_medium.jpg" />
-                    <img class="img-responsive" src="images/setup-500_small.jpg" alt="Work Station Picture">
-                </picture>
-            </div>
-        </div>
+        </header>
 
         <!-- Projects -->
-        <div class="row">
-            <div class="col-md-12 portfolio">
-                <h2 class="text-muted">Featured Work</h2>
-                <hr>
+        <main>
+            <div class="row">
+                <div class="col-md-12 portfolio">
+                    <h2 class="text-muted">Featured Work</h2>
+                    <hr>
+                </div>
             </div>
-        </div>
-        <div class="row text-center portfolio">
-            <div class="col-md-4 project">
-                <a href="https://github.com/rustydude" target="_blank">
-                    <picture>
-                        <source media="(min-width: 750px)" srcset="images/railroad-1600_large_2x.jpg 2x, images/railroad-800_large_1x.jpg" />
-                        <source media="(min-width: 500px)" srcset="images/railroad-1000_medium.jpg" />
-                        <img class="img-responsive project-img" src="images/railroad-500_small.jpg" alt="Railroad on Fall Season">
-                    </picture>
-                </a>
-                <h3>Project Sample #1</h3>
-                <p>
-                    <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
-                </p>
+            <div class="row text-center portfolio">
+                <article>
+                    <div class="col-md-4 project">
+                    <a href="https://github.com/rustydude" target="_blank">
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="images/railroad-1600_large_2x.jpg 2x, images/railroad-800_large_1x.jpg">
+                            <img class="img-responsive project-img" src="images/railroad-500_small.jpg" srcset="images/railroad-1000_medium.jpg, 1000w" alt="Railroad on Fall Season">
+                        </picture>
+                    </a>
+                    <h3>Project Sample #1</h3>
+                    <p>
+                        <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
+                    </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="col-md-4 project">
+                        <a href="https://github.com/rustydude" target="_blank">
+                            <picture>
+                                <source media="(min-width: 750px)" srcset="images/town-1600_large_2x.jpg 2x, images/town-800_large_1x.jpg">
+                                <img class="img-responsive project-img" src="images/town-500_small.jpg" srcset="images/town-1000_medium.jpg, 1000w" alt="Rooftop view of the city">
+                            </picture>
+                        </a>
+                        <h3>Project Sample #2</h3>
+                        <p>
+                            <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="col-md-4 project">
+                        <a href="https://github.com/rustydude" target="_blank">
+                            <picture>
+                                <source media="(min-width: 750px)" srcset="images/minecraft-1600_large_2x.jpg 2x, images/minecraft-800_large_1x.jpg">
+                                <img class="img-responsive project-img" src="images/minecraft-500_small.jpg" srcset="images/minecraft-1000_medium.jpg, 1000w" alt="Cubes in shades of green">
+                            </picture>
+                        </a>
+                        <h3>Project Sample #3</h3>
+                        <p>
+                            <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
+                        </p>
+                    </div>
+                </article>
             </div>
-            <div class="col-md-4 project">
-                <a href="https://github.com/rustydude" target="_blank">
-                    <picture>
-                        <source media="(min-width: 750px)" srcset="images/town-1600_large_2x.jpg 2x, images/town-800_large_1x.jpg" />
-                        <source media="(min-width: 500px)" srcset="images/town-1000_medium.jpg" />
-                        <img class="img-responsive project-img" src="images/town-500_small.jpg" alt="Rooftop view of the city">
-                    </picture>
-                </a>
-                <h3>Project Sample #2</h3>
-                <p>
-                    <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
-                </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
             </div>
-            <div class="col-md-4 project">
-                <a href="https://github.com/rustydude" target="_blank">
-                    <picture>
-                        <source media="(min-width: 750px)" srcset="images/minecraft-1600_large_2x.jpg 2x, images/minecraft-800_large_1x.jpg" />
-                        <source media="(min-width: 500px)" srcset="images/minecraft-1000_medium.jpg" />
-                        <img class="img-responsive project-img" src="images/minecraft-500_small.jpg" alt="Cubes in shades of green">
-                    </picture>
-                </a>
-                <h3>Project Sample #3</h3>
-                <p>
-                    <a href="https://github.com/rustydude" target="_blank" title="View source for this page on GitHub" class="zocial-github">View source on GitHub</a>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <hr>
-            </div>
-        </div>
+        </main>
     </div>
 
     <!-- Footer Section -->
     <footer>
-        <!-- Social Links -->
-        <div id="social">
-            <a href="https://twitter.com/home?status=https://github.com/rustydude" class="zocial-twitter">Twitter</a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/rustydude" class="zocial-facebook">Facebook</a>
-            <a href="https://plus.google.com/share?url=https://github.com/rustydude" class="zocial-googleplus">Google+</a>
-        </div>
+        <div class="row">
+            <!-- Social Links -->
+            <div class="col-md-12 social">
+                <a href="https://twitter.com/home?status=https://github.com/rustydude" class="zocial-twitter">Twitter</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/rustydude" class="zocial-facebook">Facebook</a>
+                <a href="https://plus.google.com/share?url=https://github.com/rustydude" class="zocial-googleplus">Google+</a>
+            </div>
 
-        <!-- Credits -->
-        <div id="remarks">
-            <div class="col-md-12">
+            <!-- Credits -->
+            <div class="col-md-12 remarks">
                 <p>Made by <a href="https://github.com/rustydude" target="_blank" title="Author" class="credits">Russel Lopez</a><br>
                 A project by <a href="https://udacity.com" target="_blank" title="Project" class="credits">Udacity</a><br>
                 Powered by <a href="https://www.python.org/" target="_blank" title="Project" class="credits">Python</a></p>
