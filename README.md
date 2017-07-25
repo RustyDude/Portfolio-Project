@@ -6,6 +6,6 @@ A **Portfolio Project**, replicating a given mock-up design using **HTML**, **CS
 
 Built a fully responsive site using **HTML**, **CSS** & **Bootstrap** elements.
 
-Website Link: https://russeladrianlopez.github.io/Portfolio-Project/
+Website Link: https://russeladrianlopez.github.io/portfolio-project/
 
 Nanodegree Course courtesy of [Udacity](https://www.udacity.com/).
