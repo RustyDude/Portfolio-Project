@@ -27,10 +27,15 @@ a:hover [class*="zocial-"]:before {
     color: #3d85c6;
 }
 
+a[class^="zocial-"] {
+    font-size: 1.5em;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 100%;
+    text-shadow: 1px 1px 1px #aaa;
 }
 
 hr {
@@ -56,9 +61,9 @@ footer {
 
 
 /* Helpers */
+
 .summary {
     font-size: 2.120em;
-    text-shadow: 1px 1px 1px #aaa;
     text-align: center;
     text-justify: inter-word;
     color: #7d97ad;
